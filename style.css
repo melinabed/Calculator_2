@@ -6,3 +6,83 @@ body {
     width: 100vw;
     height: 100vh;
 }
+h1 {
+    font-family: 'Londrina Outline', cursive;
+    font-size: 75px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(175, 175, 175);
+    height: 330px;
+    width: 260px;
+}
+
+button {
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+    height: 50px;
+    width: 50px;
+    margin: 6px;
+    font-size: 20px;
+}
+
+.number {
+    background-color: rgba(13, 83, 163, 0.6);
+}
+
+.number:hover {
+    background-color: white;
+}
+
+.operator,
+.paranthesis,
+.percent,
+.clear,
+.decimal,
+.equal {
+    background-color: rgba(85, 154, 233, 0.6);
+}
+
+.operator:hover,
+.paranthesis:hover,
+.percent:hover,
+.clear:hover,
+.decimal:hover,
+.equal:hover {
+    background-color: white;
+}
+
+#screen {
+    width: 185px;
+    height: 60px;
+    border: 1px solid rgb(13, 83, 163);
+    background-color: black;
+    margin: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.screen-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.previous {
+    color: white;
+    font-size: 20px;
+}
+
+.current {
+    color: aquamarine;
+    font-size: 30px;
+}
+p {
+    justify-content: baseline;
+    align-content: baseline;
+}
